@@ -78,7 +78,7 @@ mvn test
 ```
 
 - `ValidadorCpfTest` e `ClienteServiceTest` rodam sem banco.
-- `ClienteDAOJdbcTest` testa o SQL de verdade e só roda se o `db.properties` existir. **Ele apaga a tabela clientes**, então use um banco de testes.
+- `ClienteDAOJdbcTest` testa o SQL no PostgreSQL de verdade e só roda se o `db.properties` existir. Ele apaga, no final, só os registros que ele mesmo criou.
 
 ## Exemplo de uso
 
