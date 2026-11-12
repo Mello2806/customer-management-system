@@ -1,0 +1,15 @@
+# Build
+target/
+out/
+*.class
+
+# Configuração local do banco (contém senha) - use db.properties.example como modelo
+db.properties
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
